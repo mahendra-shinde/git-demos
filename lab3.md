@@ -12,29 +12,34 @@
 
 4.  Get the URL for git repository:
     Syntax:
+    
             https://github.com/{ACCOUNT-NAME}/{REPO-NAME}
 
     example:
             https://github.com/maxunlimited/repo1
 
 5.  Open Command Prompt and download this remote repository:
+    ```sh
     $ D:        or  $ cd /d/
     $ cd myrepos
     $ git config --global user.name {ACCOUNT-NAME}
     $ git config --global user.email {EMAIL}
     $ git clone https://github.com/maxunlimited/repo1
+    ```
 
 6.  Edit the readme file.
 
+    ```sh
     $ cd repo1
     $ notepad README.md
+    ```
 
 7.  Save changes, commit and push
-
+    ```sh
     $ git add .
     $ git commit -m "Updated Readme!"
     $ git push
-
+    ```
     Enter your GITHub password.
 
 
