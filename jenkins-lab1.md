@@ -51,6 +51,7 @@ Lab 1 : Setting up Jenkins Environment
     NOTE: On Windows System use "Execute Windows Batch Command"
 
     Write the Shell script:
+    
         ```
         echo "Building $JOB_NAME"
         echo "Hello World"
