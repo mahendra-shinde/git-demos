@@ -21,7 +21,9 @@
         Version:        8
         Packaging:      JAR
     
-    Click Finish
+    Click Next
+    add dependency 'Spring Web Starter'
+    click Finish
 
 3.  Wait for few minutes for maven to download all dependencies.
    
@@ -65,8 +67,13 @@
     }
     ```
 
-6.  Goto "DemoApplication.java" and Righ click -> Run As -> Java Application
+6.  open application.properties file and add one line:
 
-7.  Open browser and visit page:
+      server.port=3000
+
+
+7.   Goto "DemoApplication.java" and Righ click -> Run As -> Java Application
+
+8.  Open browser and visit page:
 
         http://localhost:3000/find?id=101
